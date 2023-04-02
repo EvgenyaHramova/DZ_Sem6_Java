@@ -1,4 +1,4 @@
-import java.io.PrintStream;
+
 
 public class Notebooks {
     private String brend;
@@ -90,9 +90,9 @@ public class Notebooks {
         return sb_nb.toString();
 
     }
-    public void getNote(){
-        System.out.printf("Бренд: %s\nОС: %s\nОбъем оперативной памяти: %d Гб\nОбъем жесткого диска: %d Гб\nРазмер дисплея по диагонали: %.1f дюймов\nЦвет: %s", brend, o_s, ram,  v_hdd, display,color);
-        }
+    // public void getNote(){
+    //     System.out.printf("Бренд: %s\nОС: %s\nОбъем оперативной памяти: %d Гб\nОбъем жесткого диска: %d Гб\nРазмер дисплея по диагонали: %.1f дюймов\nЦвет: %s", brend, o_s, ram,  v_hdd, display,color);
+    //     }
     
     
 }
